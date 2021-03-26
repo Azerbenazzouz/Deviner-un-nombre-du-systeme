@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deviner un nombre du système</title>
+</head>
+<body>
+    <center>
+        <h1>Deviner un nombre du système</h1>
+    <h3>Nous avons généré un nombre aléatoire entre 1 et <input type='text' id='nbr' maxlength="5"> </h3>
+    <h3>vous devez trouver ce nombre. qui est entre 1 et <span id='nb'></span> .</h3>
+    <h3 id='esss'>Vous aver en tout <span id='ess'>4</span> essais au maximum</h3>
+    <h3><input type="Number" id="inn"> <input id='btn' type="submit" value="Tester ma position"></h3>
+    <input id='rand' type="hidden">
+    <div id="res">
+        <h2 id="b"></h2>
+        <ol id="ul"></ol>
+    </div>
+    <div id="replaydiv">
+        <button id='replay'>Replay</button>
+    </div>
+    </center>
+</body>
+<script src="jss.js"></script>
+</html>
